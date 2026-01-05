@@ -1,0 +1,30 @@
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.home-content {
+  text-align: center;
+  color: white;
+}
+
+.home-content h1 {
+  font-size: 48px;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 20px;
+  margin-bottom: 32px;
+  opacity: 0.9;
+}
+
+.home-content .btn {
+  font-size: 18px;
+  padding: 14px 32px;
+}
+

@@ -1,0 +1,60 @@
+.builder-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.builder-header h1 {
+  font-size: 32px;
+  color: #333;
+}
+
+.field-instruction {
+  color: #666;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.btn-large {
+  width: 100%;
+  padding: 16px;
+  font-size: 18px;
+}
+
+.prefill-field-section {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.prefill-label {
+  display: block;
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.prefill-input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.prefill-input:focus {
+  outline: none;
+  border-color: #4285f4;
+  box-shadow: 0 0 0 2px rgba(66, 133, 244, 0.1);
+}
+
+.prefill-indicator {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 12px;
+  color: #34a853;
+  font-weight: 500;
+}
